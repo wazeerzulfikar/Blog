@@ -45,7 +45,10 @@ hasCJKLanguage = true
 
 	# Navigation links
 	home = ""
+	homelink = "https://wazeerzulfikar.github.io/"
 	about = ""
+    bloghome = ""
+    aboutlink = "https://wazeerzulfikar.github.io/#about/"
 	archive = ""
 	subscribe = ""
 	# Pagination links
