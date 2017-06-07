@@ -46,6 +46,7 @@ hasCJKLanguage = true
 	# Navigation links
 	home = ""
 	homelink = "https://wazeerzulfikar.github.io/"
+	rbloggerslink = "https://www.r-bloggers.com/"
 	about = ""
     bloghome = ""
     aboutlink = "https://wazeerzulfikar.github.io/#about/"
