@@ -12,10 +12,10 @@ draft=false
 
 Google Summer of Code! The summer just got better!
 
-Having worked with Tensorflow for quite some time, I was impressed by how amazing the library was, well not a surprise
-as it is being backed by Google! Thats when I noticed that though the core of the Tensorflow architecture is written in C++ and exposed through a C API, only Python has a complete wrapper which  users could easily use to design neural nets. And there lies R, most commonly used for handling large amounts of data. How would it be if the Data Scientists could easily use Tensorflow to directly implement efficient machine learning algorithms on the data they handle! Wouldn’t that be awesome?
+Having worked with Tensorflow for quite some time, I was impressed by how amazing the library was, well it's not a surprise
+as it is being backed by Google! Thats when I noticed that though the core of the Tensorflow architecture is written in C++ and exposed through a C API, only Python has a complete wrapper which  users could easily use to design neural nets. And there lies R, most commonly used for handling large amounts of data. How would it be if the Data Scientists could easily use Tensorflow to not only directly implement efficient machine learning algorithms on the data they handle, but also train them on GPU's! Wouldn’t that be awesome?
 
-Well, that is exactly what I proposed to the R Project for Statistical Computing. Considering that I did get accepted, I guess they also liked the idea :)
+Well, that is exactly what I discussed with my mentor, Tomasz Melcer, and then proposed to the R Project for Statistical Computing. Considering that I did get accepted, I guess they also liked the idea :)
 
 RStudio has actually wrapped Tensorflow already, but it is over the Python API. What makes my project different is that I am planning to wrap the C API, the core, directly. This is how Tensorflow recommends that language bindings be implemented. Interfacing directly with the core code has a lot of advantages such as removing the Python middleman improving stability, being easier to deploy and the fact that there is lesser overhead for calling any function.
 
