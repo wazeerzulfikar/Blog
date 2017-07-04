@@ -3,7 +3,7 @@ categories = ["y"]
 date = "2017-06-20T12:45:44+05:30"
 description = "Working with the low-level C API of Tensorflow to load and build graphs from scratch"
 tags = []
-title = "Week 2 - Diving into the C API"
+title = "Chapter 2 - Diving into the C API"
 draft=false
 
 +++

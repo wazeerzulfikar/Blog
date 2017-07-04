@@ -3,7 +3,7 @@ categories = ["y"]
 date = "2017-06-10T12:02:44+05:30"
 description = "The First Steps of the Project."
 tags = []
-title = "Week 1 - The Scaffolding"
+title = "Chapter 1 - The Scaffolding"
 draft=false
 
 +++
