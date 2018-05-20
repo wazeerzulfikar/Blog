@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://wazeerzulfikar.github.io/gsoc-blog/"
+baseurl = "https://wazeerzulfikar.github.io/gsoc-blog-17/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Wazeer Zulfikar"
