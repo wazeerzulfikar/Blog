@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Wazeer Zulfikar</title>
-    <link>https://wazeerzulfikar.github.io/gsoc-blog/post/</link>
+    <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/</link>
     <description>Recent content in Posts on Wazeer Zulfikar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 04 Aug 2017 12:18:43 +0530</lastBuildDate>
     
-	<atom:link href="https://wazeerzulfikar.github.io/gsoc-blog/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wazeerzulfikar.github.io/gsoc-blog-17/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chapter 6 - Open Source</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/sixth/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/sixth/</link>
       <pubDate>Fri, 04 Aug 2017 12:18:43 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/sixth/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/sixth/</guid>
       <description>This phase of the project involved lesser work and definitely a breather compared to the previous 5 phases. I focused on another aspect of open source development. Open Source is not only meant for sharing code but allowing others to contribute as well. To make my package contributor friendly, I sat to follow the Google C++ style guidlines and the R guidlines by Hadley Wikham. This also provided better readibility for new users, making it easier for them to get started.</description>
     </item>
     
     <item>
       <title>Chapter 5 - Trainable Models</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/fifth/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/fifth/</link>
       <pubDate>Mon, 24 Jul 2017 21:38:43 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/fifth/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/fifth/</guid>
       <description>Big feature update! So last week I started working on a new feature to add to tensorflow, loading saved models. This feature will allow an R user to not only load the protobuf graph from python but also load the weight and bias values. First I worked on a simple regressor (Python code available here). After successfully loading the graph, I was able to serve the model. Or in other words, feed my data and fetch outputs from it.</description>
     </item>
     
     <item>
       <title>Chapter 4 - Essential Tweaks</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/fourth/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/fourth/</link>
       <pubDate>Fri, 14 Jul 2017 10:22:13 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/fourth/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/fourth/</guid>
       <description>As I was working through, I realised the API still did not look much like the Python API. Lots of enhancements can be made to the existing API.
 One of the important parts of the framework I worked on were the Ops, after all they constitute the elements of the graph. The following changes were made to Ops handling by rtensorflow :
  Unique Name Generators : I made a unique string generator for reference to all the ops created in the working session.</description>
@@ -42,39 +42,39 @@ One of the important parts of the framework I worked on were the Ops, after all 
     
     <item>
       <title>Chapter 3 - Refactor, Test and Refactor</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/third/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/third/</link>
       <pubDate>Tue, 04 Jul 2017 11:10:13 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/third/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/third/</guid>
       <description>Great News! Version 0.0.1 is closer to being ready!
 Having established that importing graphs and building them is now possible within R, it was time to refactor the code, to make it convenient for the users. Atomics functions need to be exposed so the User can import any graph in a systematic and understandable way and also be able to build any custom graph. The semantics need to be clear such that it is close to the convenient Python API of Tensorflow.</description>
     </item>
     
     <item>
       <title>Chapter 2 - Diving into the C API</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/second/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/second/</link>
       <pubDate>Tue, 20 Jun 2017 12:45:44 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/second/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/second/</guid>
       <description>In the previous update, I had successfully loaded a predefined graph (feed forward network) and instantiated a session with the loaded graph. Well, now I have run the graph, fed inputs and fetched outputs from the predefined network. The input was hardcoded so as to allow no room for error from that side. Running a session for the first time using the C API, essentially almost directly on the underlying kernel, was indeed a tedious task.</description>
     </item>
     
     <item>
       <title>Chapter 1 - The Scaffolding</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/first/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/first/</link>
       <pubDate>Sat, 10 Jun 2017 12:02:44 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/first/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/first/</guid>
       <description>A week of the coding period has been completed. As any package which is made from scratch would require, the first step for this project was to build a scaffolding on which the crux of the package can be built on. The scaffolding of the package contains all the imports needed, namely:
  Rcpp, for seamless integration of C++ and R roxygen2, for generation of documentation in the form of Rd files testthat, to support unit tests for the package   In addition to all the necessary components for a complete R package, namely /R, /man, /tests, Description and Namespace, a /src directory is needed where all the C++ files will reside, allowing the C++ functions to be exported.</description>
     </item>
     
     <item>
       <title>Prologue - The Spark</title>
-      <link>https://wazeerzulfikar.github.io/gsoc-blog/post/spark/</link>
+      <link>https://wazeerzulfikar.github.io/gsoc-blog-17/post/spark/</link>
       <pubDate>Tue, 30 May 2017 22:02:44 +0530</pubDate>
       
-      <guid>https://wazeerzulfikar.github.io/gsoc-blog/post/spark/</guid>
+      <guid>https://wazeerzulfikar.github.io/gsoc-blog-17/post/spark/</guid>
       <description>Google Summer of Code! The summer just got better!
 Having worked with Tensorflow for quite some time, I was impressed by how amazing the library was, well it&amp;rsquo;s not a surprise as it is being backed by Google! Thats when I noticed that though the core of the Tensorflow architecture is written in C++ and exposed through a C API, only Python has a complete wrapper which users could easily use to design neural nets.</description>
     </item>
